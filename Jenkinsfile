@@ -16,7 +16,7 @@ pipeline {
       steps {
         sh '''
              chmod 755 demo.sh 
-              ./demo.sh'
+              ./demo.sh
             ''' 
       }
     }
