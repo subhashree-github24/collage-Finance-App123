@@ -12,5 +12,10 @@ pipeline {
         echo "This is the 2nd stage executed from SCM"
       }
     }
+    stage('Run shell script'){
+      steps {
+        sh'./demo.sh'
+      }
+    }
   }
 }
