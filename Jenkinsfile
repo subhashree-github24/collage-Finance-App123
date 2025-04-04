@@ -14,7 +14,7 @@ pipeline {
     }
     stage('Run shell script'){
       steps {
-        sh'./demo.sh'
+        sh'chmod 755 demo.sh ; ./demo.sh'
       }
     }
   }
