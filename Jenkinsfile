@@ -8,7 +8,7 @@ pipeline {
       }
     }
     stage('Test'){
-      steps{
+      steps {
         echo "This is the 2nd stage executed from SCM"
       }
     }
