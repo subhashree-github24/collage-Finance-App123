@@ -23,5 +23,10 @@ pipeline {
        }
      }
    }
+stage ('Deploy to server'){
+     steps{
+    echo "This is just a demo on staging1 server."
+ }
+}
  } 
 }
